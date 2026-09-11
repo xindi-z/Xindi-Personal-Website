@@ -62,3 +62,6 @@ Read AGENTS.md, then docs/04-执行流程与阶段计划.md before changes. Keep
 ## Validation scope
 See 开发日志/2026-09-10.md for build and browser checks. Basic accessibility review is not a formal WCAG certification. Email delivery and external-account availability are outside the local application's control.
 
+
+## Prepared GitHub Pages workflow
+Use .github/workflows/pages-manual.yml (manual trigger only). Follow [the project-specific publishing guide](docs/05-GitHub-Pages发布指南.md). This supersedes the generic GitHub Pages instructions above. Keep the existing deletion of deploy.yml when committing to remove the previous push-triggered workflow. The old Word resume is backed up in ignored local-only; only the PDF is published.

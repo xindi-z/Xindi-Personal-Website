@@ -2,3 +2,12 @@ node_modules/
 dist/
 *.tsbuildinfo
 .sites-runtime/
+
+# Local files and credentials
+local-only/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
