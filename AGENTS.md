@@ -1,10 +1,14 @@
-# Portfolio 协作说明
-本项目为 Xindi Zheng 的英文求职 Portfolio。
-每次只推进一个明确目标。开发前先阅读 docs/04-执行流程与阶段计划.md 以及对应规范。
-需求、技术、设计变化先更新对应文档再修改代码。结束后更新 开发日志/YYYY-MM-DD.md。
-## 标准文件
-- docs/01-项目需求说明.md
-- docs/02-技术实施标准.md
-- docs/03-设计规范.md
-- docs/04-执行流程与阶段计划.md
-未经明确要求不部署；不得虚构经历、项目链接或熟练度。个人内容集中在 src/data/portfolio.ts。
+# Portfolio Collaboration Guide
+This is Xindi Zheng's English-language personal portfolio, designed and developed with AI assistance.
+Work on one clearly defined goal at a time. Before development, read [the execution plan](docs/04-execution-plan.md) and the relevant standards.
+Update requirements, technical decisions, and design standards before implementing changes. At the end of development, update development-log/YYYY-MM-DD.md.
+All project documentation must be written in English.
+
+## Standards
+- [Requirements](docs/01-project-requirements.md)
+- [Technical standards](docs/02-technical-standards.md)
+- [Design standards](docs/03-design-standards.md)
+- [Execution plan](docs/04-execution-plan.md)
+- [GitHub Pages publishing guide](docs/05-github-pages-guide.md)
+
+Do not deploy without an explicit request. Never invent experience, project URLs, or proficiency claims. Keep personal content in src/data/portfolio.ts.
