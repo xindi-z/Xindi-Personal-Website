@@ -24,8 +24,8 @@ jobs:
       - name: Check public output
         run: |
           test -f dist/index.html
-          test -f dist/Xindi_Zheng_Resume.pdf
-          test ! -f dist/Xindi_Zheng_Resume.docx
+          test -f dist/Xindi_Zheng_SWE_Resume.pdf
+          test ! -f dist/Xindi_Zheng_SWE_Resume.docx
           test ! -d dist/src
       - uses: actions/upload-pages-artifact@v3
         with:
