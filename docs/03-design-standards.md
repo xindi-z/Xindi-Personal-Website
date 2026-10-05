@@ -21,3 +21,6 @@ Reuse the monogram in the footer. Keep modern body typography, the blue palette,
 ## Light and dark themes
 Provide a keyboard-accessible theme button in navigation. Default to dark and remember the local preference.
 Use cool-white backgrounds, navy text, and blue accents in light mode. Retain dark terminal and project visuals for readability.
+
+## Live project actions
+Bartender and Othello have owner-supplied live URLs. Show a prominent card-footer action labeled Try Bartender or Play Othello, with a new-tab hint. Match both themes and maintain keyboard focus visibility. Do not embed the external applications.
