@@ -24,11 +24,11 @@ export type Project = { name: string; subtitle: string; category: string; descri
 export const projects: Project[] = [
   { name: 'NAMAC', subtitle: 'RAG & knowledge graph research', category: 'AI & Data', description: 'Connecting technical knowledge to AI retrieval.', detail: 'Developed and tested a Python-based retrieval pipeline integrating technical documents, LLMs, and Neo4j. Investigated inconsistent embedding outputs through targeted debugging.', tech: ['Python', 'RAG', 'LLMs', 'Neo4j'], flow: ['Documents', 'Knowledge graph', 'Retrieval'], github: '', demo: '' },
   { name: 'Rust and Rescue', subtitle: 'Software / hardware integration', category: 'Systems & Games', description: 'A rescue game that reaches beyond the screen.', detail: 'Built an Android game in Godot with GPS-based movement and wildlife rescue events. Connected an Arduino pressure sensor as physical input and debugged hardware-to-game interactions.', tech: ['Godot', 'GDScript', 'Arduino'], flow: ['GPS + sensor', 'Game logic', 'Rescue event'], github: '', demo: '' },
-  { name: 'Bartender', subtitle: 'Cocktail recipe web application', category: 'Web', description: 'From ingredients to a recipe worth making.', detail: 'Created a responsive recipe search experience with React and TypeScript. Integrated an external API using Axios and asynchronous requests to find cocktails by name, flavor, and ingredients.', tech: ['React', 'TypeScript', 'Axios', 'Tailwind CSS'], flow: ['Search', 'Recipe API', 'Results'], github: '', demo: 'https://bartender-iccc.web.app/', demoLabel: 'Try Bartender' },
+  { name: 'Bartender', subtitle: 'Cocktail recipe web application', category: 'Web', description: 'From ingredients to a recipe worth making.', detail: 'Created a responsive recipe search experience with React and JavaScript. Integrated an external API using Axios and asynchronous requests to find cocktails by name, flavor, and ingredients.', tech: ['React', 'JavaScript', 'Axios', 'Tailwind CSS'], flow: ['Search', 'Recipe API', 'Results'], github: '', demo: 'https://bartender-iccc.web.app/', demoLabel: 'Try Bartender' },
   { name: 'Othello', subtitle: 'Browser-based strategy game', category: 'Systems & Games', description: 'Simple rules. Carefully considered game logic.', detail: 'Implemented legal move validation, directional piece flipping, scoring, turn skipping, valid-move hints, restart, and win or tie detection in a browser-based Reversi game.', tech: ['JavaScript', 'HTML', 'CSS'], flow: ['Validate move', 'Flip pieces', 'Update turn'], github: '', demo: 'https://xindi-z.github.io/Othello/', demoLabel: 'Play Othello' },
 ]
 export const skills = [
-  { name: 'Programming', note: 'Python is my strongest language.', items: ['Python', 'SQL / MySQL', 'JavaScript', 'TypeScript', 'C', 'C++', 'Java'] },
+  { name: 'Programming', note: 'Python is my strongest language.', items: ['Python', 'SQL / MySQL', 'JavaScript', 'C', 'C++', 'Java'] },
   { name: 'Data & AI', note: 'Research, retrieval, and analysis.', items: ['Pandas', 'NumPy', 'Matplotlib', 'Neo4j', 'RAG', 'LLMs', 'Data Analysis'] },
   { name: 'Web development', note: 'Interfaces connected to real data.', items: ['React', 'HTML', 'CSS', 'Tailwind CSS', 'Axios'] },
   { name: 'Software & tools', note: 'Building, investigating, and iterating.', items: ['Git', 'Linux', 'API Integration', 'Software Debugging', 'Object-Oriented Programming'] },
@@ -47,5 +47,6 @@ export const highlights = [
 ]
 // Editable interests selected from the supplied brief; add or remove as your interests evolve.
 export const interests = ['Game development', 'AI experimentation', 'Cybersecurity', 'Side projects', 'Gaming', 'Fitness', 'Travel']
+
 
 

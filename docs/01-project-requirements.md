@@ -18,3 +18,6 @@ Verify installation, development startup, production build, desktop/tablet/mobil
 - Skill Set was subsequently added after Education, using the existing five verified skill categories.
 - The download was changed from the original DOCX to the supplied PDF.
 - All documentation and documentation paths were subsequently converted to English.
+
+## October 5 content correction
+Use JavaScript rather than TypeScript for Bartender and the personal programming skill list, based on the owner's correction. Keep the portfolio application's actual TypeScript implementation unchanged. Replace the public resume with the newly supplied PDF from the owner's Resume folder.
